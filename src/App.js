@@ -1,3 +1,4 @@
+import React from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
@@ -29,10 +30,6 @@ function App() {
           <Route element={<Contact />} path="/contact" />
         </Routes>
       </BrowserRouter>
-
-      <footer>
-        <div></div>
-      </footer>
     </>
   );
 }

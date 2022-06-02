@@ -1,0 +1,9 @@
+{
+  "images": [
+    {"img": "/assets/dog1.jpg"},
+    {"img": "/assets/dog2.jpg"},
+    {"img": "/assets/dog3.jpg"},
+    {"img": "/assets/dog4.jpg"}
+
+  ]
+}

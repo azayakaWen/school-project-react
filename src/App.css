@@ -1,5 +1,5 @@
 body {
-  background: url(../public/weather2.jpg) no-repeat center center fixed;
+  background: url(/public/assets/weather.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -10,7 +10,7 @@ nav {
   margin: 0 10px 0 10px;
 }
 
-ul {
+nav ul {
   display: flex;
   justify-content: space-evenly;
   padding: 0;
@@ -18,19 +18,19 @@ ul {
   border-radius: 5px;
   box-shadow: 5px 10px 8px #888888;
   background: rgba(0, 0, 0, 0.5);
+
 }
 
 li {
   list-style-type: none;
+  font-size: 20px;
 }
 
 a {
   text-decoration: none;
   color: antiquewhite;
-  font-size: 25px;
   font-weight: bold;
 }
-
 
 @media (min-width: 913px) {
   nav {
